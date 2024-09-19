@@ -71,7 +71,7 @@ jobs:
           tag_name: ${{ github.run_number }}
       
       - name: Post it!
-        uses: actions/upload-artifact@v2.3.1
+        uses: actions/upload-artifact@v4
         with:
           name: winget-cli
           path: src/x64/Release/AppInstallerCLI/*
